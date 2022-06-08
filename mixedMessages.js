@@ -1,8 +1,5 @@
-/*  test about running script
-console.log('Hello, World!')
-*/
 
-//starting code
+//data
 const firstPartGreet = ['Hi', 'Hello', 'Hallo', 'Hola', 'Salut', 'Ciao', 'Olá','Privet','Nǐ hǎo','Witam','Dia dhuit'];
 let objects = [
     {
@@ -64,15 +61,8 @@ const randomMessage = () =>{
   return message.join(' ')+ ` from ${objects[i].placeCome}` +', ' + ' ' + `We have been waiting for you since ${k} years ago.`;
 }
 
-//Testing codes
-//console.log(objects[1].name)
-//console.log('primer separador');
-//console.log(num);
-//console.log('segundo separador');
+
+//output
 console.log(randomMessage());
-//console.log('tercer separador');
-//console.log(objects[i].name);
-//console.log('fin');
-//randomMessage();
 
 
