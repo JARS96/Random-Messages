@@ -61,7 +61,7 @@ const randomMessage = () =>{
     let message = [];
     message.push(firstPartGreet[j])
     message.push(objects[i].name)
-  return message.join(' ') +', ' + ' ' + `We have been waiting for you since ${k} years ago.`;
+  return message.join(' ')+ ` from ${objects[i].placeCome}` +', ' + ' ' + `We have been waiting for you since ${k} years ago.`;
 }
 
 //Testing codes
