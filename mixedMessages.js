@@ -52,9 +52,7 @@ let objects = [
 ]
 var num = Math. round(Math. random()*10);
 
-
 //function
-
  
 const randomMessage = () =>{
     let i = Math. round(Math. random()*10);
@@ -65,7 +63,6 @@ const randomMessage = () =>{
     message.push(objects[i].name)
   return message.join(' ') +', ' + ' ' + `We have been waiting for you since ${k} years ago.`;
 }
-
 
 //Testing codes
 //console.log(objects[1].name)
